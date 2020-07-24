@@ -23,11 +23,11 @@ export async function bootstrap() {
 
     await app.listen(3000);
 
-    if (process && process.env.NODE_ENV === 'development') {
-        console.info(`Swagger http://${app.getUrl()}/swagger`);
-    }
+    console.info(`Swagger ${await app.getUrl()}/swagger`);
 
     if (process && typeof process.send === 'function') {
         process.send('ready');
     }
 }
+
+bootstrap();
