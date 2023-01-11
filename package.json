@@ -22,7 +22,7 @@
     "@nestjs/platform-express": "^7.3.2",
     "@nestjs/swagger": "^4.5.12",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.12.2",
+    "class-validator": "^0.14.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.6.0",
     "swagger-ui-express": "^4.1.4"
